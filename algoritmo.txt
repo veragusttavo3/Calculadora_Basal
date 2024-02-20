@@ -1,0 +1,15 @@
+- ingresar peso, decision.
+
+- evaluar si peso <30 :
+            si peso <= 10 : ---> volumen_diario = peso * 100;
+            si peso >10 && peso <= 20: --> volumen_diario = ( peso - 10 ) *50 + 1000;
+            si peso > 20:--> volumen_diario = (peso - 20)*20 + 1500;
+
+- evaluar si peso>30 :
+            superficie_corporal = ( (peso * 4) + 7) / (peso + 90)
+            si decision = 1:--> volumen_diario = superficie_corporal * 1500;
+            si decision = 2:--> volumen_diario = superficie_corporal * 2000;
+
+- ecuacion cc/hs:--> mantenimiento = volumen_diario/24;
+- ecuacion m+m/2 : --> mantenimiento_y_medio = mantenimiento * 1.5;
+- imprimir valores de volumen_diario, mantenimiento, mantenimiento_y_medio
