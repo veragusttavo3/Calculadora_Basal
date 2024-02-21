@@ -52,6 +52,7 @@ input {
 button {
     font-size: 15px;
       font-weight: bold;
+      margin-top: 30px;
       padding: 12px 45px;
       border-radius: 30px;
       background-color: #FF416C;
